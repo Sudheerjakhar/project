@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    height: 5vw;
+    padding: 3vw 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    font-size: 1vw;
+}
+
+.navleft {
+    display: flex;
+    gap: 30px;
+}
+
+.navmiddle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homemain {
+    margin-top: 10vw;
+    width: 100%;
+    padding: 3vw 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftsection {
+    width: 10vw;
+}
+
+.leftsection h3 {
+    font-size: 1.2vw;
+}
+
+.leftsection p {
+    font-size: 12px;
+    opacity: 0.7;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.leftimg {
+    height: 100%;
+    width: 100%;
+}
+
+.leftimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.middlesection {
+    width: 30vw;
+    position: relative;
+    min-height: 42vw;
+}
+
+.middlesection .headings {
+    position: absolute;
+    top: -16%;
+    left: -18%;
+}
+
+.middlesection .headings h1 {
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -1.8vw;
+}
+
+.middlesection img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.middlesection p {
+    width: 40%;
+    font-size: 1.2vw;
+    line-height: 1.1;
+    margin-top: 3vw;
+    letter-spacing: -0.7;
+}
+
+.rightsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.rightsection i {
+    color: #0e0b0b;
+    border: 2px solid #5e5e5e;
+    border-radius: 50%;
+    padding: 0.8vw;
+}
+
+.rightsection h5 {
+    color: #5e5e5e;
+}
+
+.motive {
+    margin-top: 7vw;
+    padding: 3vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.motive h3 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #5e5e5e;
+}
+.motive p{
+    width: 82%;
+    padding-top: 2vw;
+    right: 0;
+    text-align: right;
+    font-size: 1.6vw;
+    line-height: 2;
+    letter-spacing: -0.1vw;
+    font-weight: 550;
+}
+span{
+    border-radius: 100px;
+    margin: 0 11px;
+    margin-bottom: -14.5px;
+    display: inline-block;
+}
+#spanone{
+    width: 80px;
+    height: 50px;
+    background-image: url(./bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+#spantwo{
+    width: 100px;
+    height: 50px;
+    background-image: url(./shaljam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#spanthree{
+    width: 80px;
+    height: 50px;
+    background-image: url(./grass.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vw;
+    margin-left: 14vw;
+    margin-right: 12vw;
+}
+.leftpic{
+    width: 17vw;
+}
+.leftpic h3, .rightpic h3{
+    font-size: 1.3vw;
+    margin: 0.8vw 0;
+}
+.leftpic p, .rightpic p{
+    font-weight: 100;
+    opacity: 0.7;
+    line-height: 1;
+}
+.leftpic .picimage{
+    width: 100%;
+    height: 24vw;
+}
+.picimage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.rightpic{
+    width: 20vw;
+    text-align: right;
+}
+.rightpic .picimage img{
+    height: 36vw;
+}
+.banner{
+    width: 100%;
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+
+}
+.bannerimg{
+    width: 65%;
+    height: 70vh;
+}
+.bannerimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+.bannertext{
+    margin-left: 3vw;
+}
+.bannertext h1{
+    font-size: 2.8vw;
+    line-height: 1;
+    letter-spacing: -0.12vw;
+    font-weight: 400;
+}
+.bannertext p{
+    width: 60%;
+    margin-top: 2vw;
+    font-size: 1vw ;
+}
+.future{
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.future video{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+}
+.futuretext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    background-color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 20px;
+}
+.futuretext button{
+    color: #5e5e5e;
+    border: 2px solid #5e5e5e;
+    border-radius: 100px;
+    padding: 0.7vw 1.3vw;
+    margin-top: 10px;
+}
